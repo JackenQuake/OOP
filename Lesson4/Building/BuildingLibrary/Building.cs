@@ -90,6 +90,6 @@ namespace BuildingLibrary {
             buildings.Remove(GetByID(id));
         }
 
-        public static HashSet<Building> BuildingsList() => buildings;
+        public static IEnumerable<Building> BuildingsList() => buildings;
     }
 }
