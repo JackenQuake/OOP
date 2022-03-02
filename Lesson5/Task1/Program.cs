@@ -72,7 +72,7 @@ namespace Task1 {
 
         public static implicit operator RatNum(int a) => new RatNum(a);
 
-        public static explicit operator float(RatNum a) => a.m / (float)a.n;
+        public static explicit operator double(RatNum a) => a.m / (float)a.n;
 
         public static RatNum operator *(RatNum a, RatNum b) => new RatNum(a.m * b.m, a.n * b.n);
 
