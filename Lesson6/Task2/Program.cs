@@ -25,7 +25,7 @@ namespace Task2 {
 
         public abstract void MoveVertical(double distance);
 
-        public virtual double Area() => 0;
+        public virtual double GetArea() => 0;
 
         public void SetColor(Color newcolor) { color = newcolor; }
 
