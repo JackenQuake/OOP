@@ -18,9 +18,9 @@ namespace Task2 {
         
         public Complex() : this(0) { }
 
-        public double Re { get => re; set { re = value; } }
+        public double Re => re;
 
-        public double Im { get => im; set { im = value; } }
+        public double Im => im;
 
         public static Complex operator +(Complex a, Complex b) => new Complex(a.re + b.re, a.im + b.im);
 
