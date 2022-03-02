@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Task2 {
     class Complex {
-        private double re;
-        private double im;
+        private readonly double re;
+        private readonly double im;
 
         public Complex(double _re, double _im) {
             re = _re;
