@@ -58,7 +58,7 @@ namespace BuildingLibrary {
         internal Building() : this(counter + 1) { }
     }
 
-    public class Creator {
+    public static class Creator {
         private static HashSet<Building> buildings = new HashSet<Building>();
 
         public static Building CreateBuild(int id, int height, int floors, int rooms, int porches) {
