@@ -35,10 +35,8 @@ namespace Task1 {
 
         private void Set_ID() { _id = (++counter); }
 
-        public Account() {
-            Set_ID();
-            balance = 0;
-            type = Account.Type.Credit;
+        public Account() : this(0, Account.Type.Credit)  {
+          
         }
 
         public Account(double _value) {
