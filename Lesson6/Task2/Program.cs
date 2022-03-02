@@ -54,9 +54,9 @@ namespace Task2 {
             Console.ForegroundColor = ConsoleColor.Gray;
         }
 
-        protected Figure(Color _color, bool _visible) {
-            color = _color;
-            visible = _visible;
+        protected Figure(Color Color, bool Visible) {
+            color = Color;
+            visible = Visible;
         }
     }
 
