@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace BuildingLibrary {
     
     public class Building {
-        private int _id;
+        private readonly int _id;
         private int _height;
         private int _floors;
         private int _rooms;
